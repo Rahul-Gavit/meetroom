@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { useReactMediaRecorder } from 'react-media-recorder-2';
 import '../style/audio.css';
 
