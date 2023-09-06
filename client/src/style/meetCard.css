@@ -1,0 +1,38 @@
+.room-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+    margin: auto;
+    margin-top: 20px;
+    height: 600px;
+    width: 700px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+video{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+button{
+    color: #fff;
+    font-size:medium;
+    font-weight: 500;
+    margin: 10px 70px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(16, 16, 16);
+    cursor: pointer;
+}
+
+button{
+    background-color: #000;
+}
+
+h1,h2,h3{
+    color: #fff;
+}

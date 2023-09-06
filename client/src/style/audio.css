@@ -1,0 +1,30 @@
+        .audio-container {
+            max-width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Style the audio player itself */
+        audio {
+            width: 100%;
+            outline: none;
+        }
+
+        /* Style the audio controls */
+        audio::-webkit-media-controls-panel {
+            background-color: rgb(247, 255, 86);
+            color: white;
+            border-radius: 10px;
+            padding: px;
+        }
+
+        /* Style individual audio controls (buttons) */
+        audio::-webkit-media-controls-play-button,
+        audio::-webkit-media-controls-pause-button,
+        audio::-webkit-media-controls-volume-slider {
+            background-color: white;
+            color: red;
+            border-radius: 50%; /* Make the buttons circular */
+            padding: 5px;
+            margin: 5px;
+        }

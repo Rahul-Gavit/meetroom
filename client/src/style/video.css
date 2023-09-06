@@ -1,0 +1,28 @@
+ /* Apply styles to the video element */
+ video {
+    width: 100%; /* Set the width to 100% of its container */
+    max-width: 800px; /* Limit the maximum width */
+    display: block; /* Remove default inline display */
+    margin: 0 auto; /* Center the video horizontally */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Style video controls */
+video::-webkit-media-controls-panel {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Text color */
+    border-radius: 10px; /* Rounded corners for controls */
+}
+
+/* Style play/pause button */
+video::-webkit-media-controls-play-button {
+    background-color: #333; /* Play button background color */
+}
+
+/* Style progress bar */
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-time-remaining-display-container {
+    color: white; /* Text color for progress bar */
+}
